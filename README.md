@@ -5,10 +5,10 @@ Given a string, return a new string made of every other char starting with the f
 
 def string_bits(str):
   
-  answerString = ""
+    answerString = ""
   
-  for i in range(len(str)):
-    if i % 2 == 0:
-      answerString += str[i]
+    for i in range(len(str)):
+      if i % 2 == 0:
+        answerString += str[i]
 
-  return answerString
+    return answerString
